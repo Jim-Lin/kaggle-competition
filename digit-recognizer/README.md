@@ -4,5 +4,6 @@
 default epochs of Sequential model is 10  
 https://github.com/keras-team/keras/blob/2.0.5/keras/models.py#L800
 
-#### funtional way
-set epochs=10 in fit method
+#### functional way
+set epochs=10 in fit method  
+https://github.com/Jim-Lin/kaggle-competition/blob/master/digit-recognizer/run_functional.py#L22
