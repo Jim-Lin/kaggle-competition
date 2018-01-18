@@ -16,7 +16,7 @@ model.add(Dense(25, activation='relu'))
 model.add(Dense(25, activation='relu'))
 model.add(Dense(10, activation='softmax'))
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-model.fit(X, y, validation_split=0.3, epochs=1)
+model.fit(X, y, validation_split=0.3)
 
 predict = np.argmax(model.predict(X_test), axis=1)
 
